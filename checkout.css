@@ -1,0 +1,223 @@
+body{
+    background-color: rgb(250, 246, 246);
+}
+
+hr {
+    border: none; 
+    height: 0.5px; 
+    background-color: rgb(241, 232, 232); 
+    margin: 20px 0;
+}
+
+.header-container{
+   gap: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: teal;
+}
+
+.deliveryaddress {
+    padding: 20px;
+    padding-top: 2px;
+    margin-top: 20px;
+    border: 2px solid teal;
+    background-color: tan;
+    width: 50%;
+    height: 250px;
+    margin-left: 200px;
+    border-radius: 5px;
+}
+
+.address {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.defaultaddress {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10px;
+}
+
+.addaddress {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cancel {
+    margin-left: 500px;
+    display: flex;
+    gap: 20px;
+}
+
+.cancel-button {
+    background-color: tan;
+    color: teal;
+    padding: 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.select {
+    margin-left: 590px;
+}
+
+.select-button {
+    background-color: teal;
+    color: tan;
+    padding: 2px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.addressbook{
+    border: 1px solid rgb(248, 255, 255);
+    padding-left: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.deliveryaddress p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.delivery {
+    padding: 20px;
+    padding-top: 13px;
+    margin-top: 20px;
+    border: 2px solid teal;
+    background-color: tan;
+    width: 50%;
+    height: 50px;
+    margin-left: 200px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.payment {
+    padding: 20px;
+    padding-top: 13px;
+    margin-top: 20px;
+    border: 2px solid teal;
+    background-color: tan;
+    width: 50%;
+    height: 50px;
+    margin-left: 200px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.back {
+    margin-left: 200px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.order {
+   position: absolute;
+   top: 97px;
+   right: 300px;
+   width: 250px;
+   background-color: tan;
+   border: 2px solid teal;
+   border-radius: 5px;
+   padding: 20px;
+   padding-top: 13px;
+}
+
+.summary hr{
+    border: none;
+    height: 1px;
+    background-color: white;
+    margin: 0;
+    width: 100%;
+}
+
+.summary {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 5px;
+}
+
+.itemtotal {
+    margin-left: 150px;
+
+}
+
+.total {
+    margin-left: 150px;
+}
+
+.voucher {
+    font-size: 13px;
+}
+
+.confirm {
+    position: relative;
+    padding-top: 40px;
+    margin-left: 40px;
+}
+
+.confirm-button {
+    background-color: teal;
+    color: tan;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    cursor: pointer;
+
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.proceeding {
+    font-size: 13px;
+    margin-left: 1000px;
+    margin-top: 1px;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.header-container h1 {
+    margin-right: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header-container h2 {
+    margin-right: 20px;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-container h3 {
+    margin-right: 20px;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-container h5 {
+    margin-left: auto;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.header-container h4 {
+    margin-right: 10px;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.check {
+    display: flex;
+}

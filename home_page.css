@@ -1,0 +1,131 @@
+ body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: tan;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: teal;
+}
+
+.logo {
+  font-size: 24px;
+  color: gold;
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-button {
+  background-color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 75px;
+  height: 25px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  line-height: normal;
+  color: black;
+}
+
+.nav-button:hover {
+  background-color: lightgrey;
+}
+
+
+.add-to-cart {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.add-to-cart:hover img {
+  opacity: 0.8;
+  background-color: grey;
+}
+
+.name {
+  padding-left: 10px;
+}
+
+.boyd {
+  width: 35px;
+  height: 35px;
+  border-radius: 25px;
+  display: flex;
+}
+
+h3, p{
+  color: black;
+}
+
+
+/*
+*/
+
+.container{
+  display: flex;
+}
+
+.tee-pic, .pant-pic{
+  width: 400px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+ 
+#tee-pic-two{
+  height: 340px;
+  width: 400px;
+}
+
+.pant-pic{
+  height: 350px;
+  object-fit: cover;
+} 
+
+.pants, .tees{
+  background-color: white;
+  border-radius: 20px;
+  height: 500px;
+  width: 400px;
+  margin: 20px 20px;
+}
+
+.pants-split, .tees-split{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.icon{
+  width: 90px;
+  height: 90px;
+}
+
+.icon:hover{  
+  opacity: 0.8;
+  background-color: grey;
+  cursor: pointer;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text{
+  padding-left: 20px;
+}
